@@ -1,7 +1,5 @@
-
-##OBJECTIVES & OUTCOMES
-
-####This activity will show that I can...
+## OBJECTIVES & OUTCOMES
+#### This activity will show that I can...
 
 * Archive and deliver the latest project release.
 * Add to, Revise, or Adjust work adequately to further along the project.
