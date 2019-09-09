@@ -1,0 +1,30 @@
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\obj\Debug\weatherScraper.csprojAssemblyReference.cache
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\obj\Debug\weatherScraper.csproj.CoreCompileInputs.cache
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\bin\Debug\weatherScraper.exe.config
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\bin\Debug\weatherScraper.exe
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\bin\Debug\weatherScraper.pdb
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\bin\Debug\Google.Protobuf.dll
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\bin\Debug\MySql.Data.dll
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\bin\Debug\Renci.SshNet.dll
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\bin\Debug\Google.Protobuf.xml
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\bin\Debug\MySql.Data.xml
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\bin\Debug\Renci.SshNet.xml
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\obj\Debug\weatherScraper.csproj.CopyComplete
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\obj\Debug\weatherScraper.exe
+C:\Users\Tobey\source\repos\weatherScraper\weatherScraper\obj\Debug\weatherScraper.pdb
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\bin\Debug\weatherScraper.exe.config
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\bin\Debug\weatherScraper.exe
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\bin\Debug\weatherScraper.pdb
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\bin\Debug\BouncyCastle.Crypto.dll
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\bin\Debug\Google.Protobuf.dll
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\bin\Debug\MySql.Data.dll
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\bin\Debug\Renci.SshNet.dll
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\bin\Debug\Google.Protobuf.xml
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\bin\Debug\MySql.Data.xml
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\bin\Debug\Renci.SshNet.xml
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\obj\Debug\weatherScraper.csprojAssemblyReference.cache
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\obj\Debug\weatherScraper.csproj.CoreCompileInputs.cache
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\obj\Debug\weatherScraper.csproj.CopyComplete
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\obj\Debug\weatherScraper.exe
+E:\School\Course\PP2\Week 1\weatherScraper\weatherScraper\weatherScraper\obj\Debug\weatherScraper.pdb
