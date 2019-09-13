@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{64F8B08E-1CCA-4047-A66D-B592DF0A4995}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RPGTyper/Program.cs">
+    <Files>
+      <File FileName="RPGTyper/Program.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RPGTyper" expanded="True">
+            <Node name="RPGTyper" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RPGTyper FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
