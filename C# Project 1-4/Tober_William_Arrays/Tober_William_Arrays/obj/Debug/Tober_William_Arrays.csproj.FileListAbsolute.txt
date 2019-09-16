@@ -1,0 +1,7 @@
+C:\Users\William\source\repos\Tober_William_Arrays\Tober_William_Arrays\bin\Debug\Tober_William_Arrays.exe.config
+C:\Users\William\source\repos\Tober_William_Arrays\Tober_William_Arrays\bin\Debug\Tober_William_Arrays.exe
+C:\Users\William\source\repos\Tober_William_Arrays\Tober_William_Arrays\bin\Debug\Tober_William_Arrays.pdb
+C:\Users\William\source\repos\Tober_William_Arrays\Tober_William_Arrays\obj\Debug\Tober_William_Arrays.csprojAssemblyReference.cache
+C:\Users\William\source\repos\Tober_William_Arrays\Tober_William_Arrays\obj\Debug\Tober_William_Arrays.csproj.CoreCompileInputs.cache
+C:\Users\William\source\repos\Tober_William_Arrays\Tober_William_Arrays\obj\Debug\Tober_William_Arrays.exe
+C:\Users\William\source\repos\Tober_William_Arrays\Tober_William_Arrays\obj\Debug\Tober_William_Arrays.pdb

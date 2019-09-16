@@ -1,0 +1,7 @@
+C:\Users\William\source\repos\Tober_William_Methods\Tober_William_Methods\obj\Debug\Tober_William_Methods.csprojAssemblyReference.cache
+C:\Users\William\source\repos\Tober_William_Methods\Tober_William_Methods\obj\Debug\Tober_William_Methods.csproj.CoreCompileInputs.cache
+C:\Users\William\source\repos\Tober_William_Methods\Tober_William_Methods\bin\Debug\Tober_William_Methods.exe.config
+C:\Users\William\source\repos\Tober_William_Methods\Tober_William_Methods\bin\Debug\Tober_William_Methods.exe
+C:\Users\William\source\repos\Tober_William_Methods\Tober_William_Methods\bin\Debug\Tober_William_Methods.pdb
+C:\Users\William\source\repos\Tober_William_Methods\Tober_William_Methods\obj\Debug\Tober_William_Methods.exe
+C:\Users\William\source\repos\Tober_William_Methods\Tober_William_Methods\obj\Debug\Tober_William_Methods.pdb

@@ -1,0 +1,7 @@
+c:\users\william\source\repos\Tober_William_GroceryCalc\Tober_William_GroceryCalc\bin\Debug\Tober_William_GroceryCalc.exe.config
+c:\users\william\source\repos\Tober_William_GroceryCalc\Tober_William_GroceryCalc\bin\Debug\Tober_William_GroceryCalc.exe
+c:\users\william\source\repos\Tober_William_GroceryCalc\Tober_William_GroceryCalc\bin\Debug\Tober_William_GroceryCalc.pdb
+c:\users\william\source\repos\Tober_William_GroceryCalc\Tober_William_GroceryCalc\obj\Debug\Tober_William_GroceryCalc.csprojAssemblyReference.cache
+c:\users\william\source\repos\Tober_William_GroceryCalc\Tober_William_GroceryCalc\obj\Debug\Tober_William_GroceryCalc.csproj.CoreCompileInputs.cache
+c:\users\william\source\repos\Tober_William_GroceryCalc\Tober_William_GroceryCalc\obj\Debug\Tober_William_GroceryCalc.exe
+c:\users\william\source\repos\Tober_William_GroceryCalc\Tober_William_GroceryCalc\obj\Debug\Tober_William_GroceryCalc.pdb

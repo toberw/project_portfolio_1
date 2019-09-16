@@ -1,0 +1,7 @@
+c:\users\william\source\repos\Tober_William_MadLibs\Tober_William_MadLibs\bin\Debug\Tober_William_MadLibs.exe.config
+c:\users\william\source\repos\Tober_William_MadLibs\Tober_William_MadLibs\bin\Debug\Tober_William_MadLibs.exe
+c:\users\william\source\repos\Tober_William_MadLibs\Tober_William_MadLibs\bin\Debug\Tober_William_MadLibs.pdb
+c:\users\william\source\repos\Tober_William_MadLibs\Tober_William_MadLibs\obj\Debug\Tober_William_MadLibs.csprojAssemblyReference.cache
+c:\users\william\source\repos\Tober_William_MadLibs\Tober_William_MadLibs\obj\Debug\Tober_William_MadLibs.csproj.CoreCompileInputs.cache
+c:\users\william\source\repos\Tober_William_MadLibs\Tober_William_MadLibs\obj\Debug\Tober_William_MadLibs.exe
+c:\users\william\source\repos\Tober_William_MadLibs\Tober_William_MadLibs\obj\Debug\Tober_William_MadLibs.pdb
