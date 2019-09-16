@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,8 +21,8 @@ namespace Tober_William_Methods
             //introduce the currency converter
             Console.WriteLine("----========[Currency Converter]========----");
 
-            //Ask teh user how many euros they want to convert
-            Console.WriteLine("How mayn euros would you like to convert?");
+            //Ask the user how many euros they want to convert
+            Console.WriteLine("How many euros would you like to convert?");
 
             //translate the users input into a string variable
             String euroString = Console.ReadLine();
@@ -218,7 +218,7 @@ namespace Tober_William_Methods
             decimal usDollarRate = 1.16m;
 
             //declare a variable to store and calculate total dolalrs
-            decimal totalDollars = euroAmount * usDollarRate;
+            decimal totalDollars = euroAmount * us"DollarRate;
 
             //return the totalDollars variable
             return totalDollars;
