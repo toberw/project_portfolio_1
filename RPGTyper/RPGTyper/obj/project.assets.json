@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/TOBEY/School/Course/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/RPGTyper.csproj",
+      "projectUniqueName": "/Users/tobey/Desktop/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/RPGTyper.csproj",
       "projectName": "RPGTyper",
-      "projectPath": "/Volumes/TOBEY/School/Course/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/RPGTyper.csproj",
+      "projectPath": "/Users/tobey/Desktop/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/RPGTyper.csproj",
       "packagesPath": "/Users/tobey/.nuget/packages/",
-      "outputPath": "/Volumes/TOBEY/School/Course/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/obj/",
+      "outputPath": "/Users/tobey/Desktop/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
