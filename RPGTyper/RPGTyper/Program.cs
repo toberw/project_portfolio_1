@@ -4,24 +4,102 @@ namespace RPGTyper
 {
     class Program
     {
+        static Player currentPlayer;
         static void Main(string[] args)
         {
-            Player currentPlayer = new Player("John Doe");
+            
             bool programRunning = true;
+            bool playedBefore = false;
+            bool playedBeforeLoop = true; 
 
             while (programRunning)
             {
-                Console.WriteLine("This is the start of things. ");
+                if (!playedBefore)
+                {
+                    Console.Write("Welcome to RPGWriter, you're on a quest to become the\n" +
+                        "greatest hero that ever lived!\n\n" +
+                        "What is your name hero?\n\n" +
+                        "Type your name and press enter:  ");
+
+                    string playerName = Console.ReadLine().ToLower();
+
+                    playerName = Validate.ValidateString(playerName, "Please don't leave your name blank: ");
+
+                    Console.Clear();
+
+                    while (playedBeforeLoop)
+                    {
+                        Console.Write($"Hello {playerName}! Welcome to RPGWriter! \n" +
+                        $"There are several types of heros.\n" +
+                        "Which hero are you? \n\n" +
+                        "1) Warrior\n" +
+                        "2) Mage\n" +
+                        "3) Archer\n" +
+                        "\n" +
+                        "Choose a class and press enter: ");
+
+                        string classChoice = Console.ReadLine().ToLower();
+                        classChoice = Validate.ValidateString(classChoice, "Please do not leave your class choice blank: ");
+
+                        switch (classChoice)
+                        {
+                            case "1":
+                            case "warrior":
+                            case "one":
+                            case "war":
+                                {
+                                    currentPlayer = new Warrior(playerName);
+                                    playedBefore = false;
+                                    playedBeforeLoop = false;
+                                }
+                                break;
+                            case "2":
+                            case "two":
+                            case "mage":
+                            case "magic":
+                                {
+                                    currentPlayer = new Mage(playerName);
+                                    playedBefore = false;
+                                    playedBeforeLoop = false;
+                                }
+                                break;
+                            case "3":
+                            case "three":
+                            case "archer":
+                            case "arrow":
+                            case "range":
+                                {
+                                    currentPlayer = new Archer(playerName);
+                                    playedBefore = false;
+                                    playedBeforeLoop = false;
+                                }
+                                break;
+                            default:
+                                break;
+                        }
+
+                    }
+
+                }
+
+                Console.Write("Menu Select: \n" +
+                    "\n" +
+                    "1. Fight\n" +
+                    "2. Quest\n" +
+                    "3. Inventory\n" +
+                    "4. Character\n\n" +
+                    "Choose your next move and press return: ");
 
                 while (Console.ReadKey().Key != ConsoleKey.X)
                 {
+
                     Console.Clear();
                     currentPlayer.XP += 1;
                     Console.WriteLine($"Experience: {currentPlayer.XP}");
+
                 }
 
                 programRunning = false;
-
 
             }
         }

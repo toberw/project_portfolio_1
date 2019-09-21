@@ -2,7 +2,7 @@ using System;
 
 namespace RPGTyper
 {
-    class Player
+    public class Player
     {
         private string _name;
         private int _gold;

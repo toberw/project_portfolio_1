@@ -1,15 +1,19 @@
 ﻿<Properties StartupConfiguration="{64F8B08E-1CCA-4047-A66D-B592DF0A4995}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RPGTyper/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RPGTyper/Validate.cs">
     <Files>
-      <File FileName="RPGTyper/Program.cs" Line="12" Column="1" />
-      <File FileName="RPGTyper/Player.cs" />
+      <File FileName="RPGTyper/Program.cs" Line="22" Column="60" />
+      <File FileName="RPGTyper/Player.cs" Line="5" Column="12" />
+      <File FileName="RPGTyper/Warrior.cs" Line="9" Column="1" />
+      <File FileName="RPGTyper/Mage.cs" Line="6" Column="9" />
+      <File FileName="RPGTyper/Archer.cs" Line="6" Column="9" />
+      <File FileName="RPGTyper/Validate.cs" Line="11" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RPGTyper" expanded="True">
             <Node name="RPGTyper" expanded="True">
-              <Node name="Player.cs" selected="True" />
+              <Node name="Validate.cs" selected="True" />
             </Node>
           </Node>
         </State>
