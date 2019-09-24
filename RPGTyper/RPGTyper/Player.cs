@@ -2,7 +2,7 @@ using System;
 
 namespace RPGTyper
 {
-    public class Player
+    abstract public class Player
     {
         private string _name;
         private int _gold;
@@ -27,6 +27,32 @@ namespace RPGTyper
             _xp = 0;
         }
 
-        
+        public void Gains()
+        {
+            _xp++;
+        }
+        public void UltraGains()
+        {
+            _xp += 10;
+        }
+        public virtual void Attack()
+        {
+            Random rnd = new Random();
+            int rndSelect = rnd.Next(100);
+
+            if (rndSelect < 25 && rndSelect > 0)
+            {
+                Console.WriteLine("I've attacked with my main attack, Arg!");
+            } else if (rndSelect > 25 && rndSelect < 50)
+            {
+                Console.WriteLine("I've attacked with a slightly stronger attack!");
+            } else if (rndSelect > 50 && rndSelect < 75)
+            {
+                Console.WriteLine("You've acticated my trap card! Peasent!");
+            } else if (rndSelect > 75 && rndSelect < 100)
+            {
+                Console.WriteLine(_name + " uses sword bash, their ultimate ability!");
+            }
+        }
     }
 }

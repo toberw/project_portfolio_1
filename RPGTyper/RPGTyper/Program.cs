@@ -5,6 +5,7 @@ namespace RPGTyper
     class Program
     {
         static Player currentPlayer;
+
         static void Main(string[] args)
         {
             
