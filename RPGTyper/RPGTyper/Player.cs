@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace RPGTyper
 {
@@ -7,6 +8,8 @@ namespace RPGTyper
         private string _name;
         private int _gold;
         private int _xp;
+
+        virtual List<Item> _inventory = new List<Item>();
 
         public int XP
         {
@@ -52,6 +55,13 @@ namespace RPGTyper
             } else if (rndSelect > 75 && rndSelect < 100)
             {
                 Console.WriteLine(_name + " uses sword bash, their ultimate ability!");
+            }
+        }
+        public void Inventory()
+        {
+            for(int i = 0; i < _inventory.Count; i++)
+            {
+                Console.WriteLine((i + 1) + ") " + _inventory[i].);
             }
         }
     }

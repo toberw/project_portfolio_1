@@ -15,6 +15,7 @@ namespace RPGTyper
 
             while (programRunning)
             {
+                //Createa  method to store this if statement and just return a player.. 
                 if (!playedBefore)
                 {
                     Console.Write("Welcome to RPGWriter, you're on a quest to become the\n" +
@@ -91,6 +92,46 @@ namespace RPGTyper
                     "4. Character\n\n" +
                     "Choose your next move and press return: ");
 
+                string userInput = Console.ReadLine();
+                Validate.ValidateString(userInput, "Please don't leave your selection blank!");
+
+
+                switch(userInput)
+                {
+                    case "1":
+                    case "one":
+                    case "fight":
+                        {
+
+                        }
+                        break;
+                    case "2":
+                    case "two":
+                    case "quest":
+                        {
+
+                        }
+                        break;
+                    case "3":
+                    case "three":
+                    case "inventory":
+                        {
+
+                        }
+                        break;
+                    case "4":
+                    case "four":
+                    case "character":
+                        {
+
+                        }
+                        break;
+                    default:
+                        {
+                            Console.WriteLine("Something went wrong, please enter your answer again: ");
+                        }
+                        break;
+                }
                 while (Console.ReadKey().Key != ConsoleKey.X)
                 {
 
