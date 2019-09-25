@@ -4,7 +4,6 @@
 /Users/tobey/Desktop/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/bin/Debug/netcoreapp2.1/RPGTyper.dll
 /Users/tobey/Desktop/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/bin/Debug/netcoreapp2.1/RPGTyper.pdb
 /Users/tobey/Desktop/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/obj/Debug/netcoreapp2.1/RPGTyper.csprojAssemblyReference.cache
-/Users/tobey/Desktop/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/obj/Debug/netcoreapp2.1/RPGTyper.csproj.CoreCompileInputs.cache
 /Users/tobey/Desktop/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/obj/Debug/netcoreapp2.1/RPGTyper.AssemblyInfoInputs.cache
 /Users/tobey/Desktop/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/obj/Debug/netcoreapp2.1/RPGTyper.AssemblyInfo.cs
 /Users/tobey/Desktop/PP2/Tober_William_Portfolio/RPGTyper/RPGTyper/obj/Debug/netcoreapp2.1/RPGTyper.dll

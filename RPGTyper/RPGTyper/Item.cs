@@ -1,7 +1,7 @@
 ﻿using System;
 namespace RPGTyper
 {
-    abstract public class Item
+    public class Item
     {
 
         private string _name;

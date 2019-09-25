@@ -10,7 +10,7 @@ namespace RPGTyper
 
         public Warrior(string name, int gold = 0) : base(name, gold)
         {
-            Item basicSword = new Weapon("sword", "Stick with a pointy side.", 1);
+            Item basicSword = new Weapon("sword", "Stick with a pointy side.");
         }
     }
 }

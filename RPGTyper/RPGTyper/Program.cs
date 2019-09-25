@@ -149,6 +149,7 @@ namespace RPGTyper
             {
 
                 Console.Clear();
+                currentPlayer.Attack();
                 currentPlayer.XP += 1;
                 Console.WriteLine($"Experience: {currentPlayer.XP}");
 
