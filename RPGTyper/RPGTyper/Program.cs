@@ -102,7 +102,7 @@ namespace RPGTyper
                     case "one":
                     case "fight":
                         {
-
+                            Fight();
                         }
                         break;
                     case "2":
@@ -116,7 +116,7 @@ namespace RPGTyper
                     case "three":
                     case "inventory":
                         {
-
+                            currentPlayer.Inventory();
                         }
                         break;
                     case "4":
@@ -132,16 +132,25 @@ namespace RPGTyper
                         }
                         break;
                 }
-                while (Console.ReadKey().Key != ConsoleKey.X)
-                {
-
-                    Console.Clear();
-                    currentPlayer.XP += 1;
-                    Console.WriteLine($"Experience: {currentPlayer.XP}");
-
-                }
+                
 
                 programRunning = false;
+
+            }
+        }
+        static void Questing()
+        {
+
+        }
+
+        static void Fight()
+        {
+            while (Console.ReadKey().Key != ConsoleKey.X)
+            {
+
+                Console.Clear();
+                currentPlayer.XP += 1;
+                Console.WriteLine($"Experience: {currentPlayer.XP}");
 
             }
         }

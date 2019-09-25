@@ -9,7 +9,7 @@ namespace RPGTyper
         private int _gold;
         private int _xp;
 
-        virtual List<Item> _inventory = new List<Item>();
+        List<Item> _inventory = new List<Item>();
 
         public int XP
         {
@@ -61,7 +61,7 @@ namespace RPGTyper
         {
             for(int i = 0; i < _inventory.Count; i++)
             {
-                Console.WriteLine((i + 1) + ") " + _inventory[i].);
+                Console.WriteLine((i + 1) + ") " + _inventory[i].Name);
             }
         }
     }

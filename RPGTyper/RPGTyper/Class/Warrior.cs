@@ -5,11 +5,12 @@ namespace RPGTyper
 {
     public class Warrior : Player
     {
-        private override List<Item> _inventory = new List<Item>();
+        List<Item> _inventory = new List<Item>();
+        List<Item> _equipped = new List<Item>();
 
         public Warrior(string name, int gold = 0) : base(name, gold)
         {
-            _inventory
+            Item basicSword = new Weapon("sword", "Stick with a pointy side.", 1);
         }
     }
 }

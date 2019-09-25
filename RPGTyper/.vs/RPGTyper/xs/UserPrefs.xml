@@ -1,20 +1,21 @@
 ﻿<Properties StartupConfiguration="{64F8B08E-1CCA-4047-A66D-B592DF0A4995}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RPGTyper/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RPGTyper/Item.cs">
     <Files>
-      <File FileName="RPGTyper/Program.cs" Line="97" Column="1" />
-      <File FileName="RPGTyper/Player.cs" Line="60" Column="9" />
-      <File FileName="RPGTyper/Warrior.cs" Line="1" Column="1" />
-      <File FileName="RPGTyper/Mage.cs" />
-      <File FileName="RPGTyper/Archer.cs" />
-      <File FileName="RPGTyper/Validate.cs" Line="1" Column="1" />
-      <File FileName="RPGTyper/Item.cs" Line="6" Column="1" />
+      <File FileName="RPGTyper/Program.cs" Line="152" Column="39" />
+      <File FileName="RPGTyper/Player.cs" Line="64" Column="70" />
+      <File FileName="RPGTyper/Warrior.cs" Line="9" Column="49" />
+      <File FileName="RPGTyper/Mage.cs" Line="9" Column="49" />
+      <File FileName="RPGTyper/Archer.cs" Line="16" Column="1" />
+      <File FileName="RPGTyper/Item.cs" Line="26" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RPGTyper" expanded="True">
             <Node name="RPGTyper" expanded="True">
-              <Node name="Player.cs" selected="True" />
+              <Node name="Class" expanded="True" />
+              <Node name="Items" expanded="True" />
+              <Node name="Item.cs" selected="True" />
             </Node>
           </Node>
         </State>

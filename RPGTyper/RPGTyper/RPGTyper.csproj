@@ -8,4 +8,8 @@
   <ItemGroup>
     <None Remove="Player.Class" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\" />
+    <Folder Include="Class\" />
+  </ItemGroup>
 </Project>
