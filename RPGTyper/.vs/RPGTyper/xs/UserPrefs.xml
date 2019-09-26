@@ -1,12 +1,16 @@
 ﻿<Properties StartupConfiguration="{64F8B08E-1CCA-4047-A66D-B592DF0A4995}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RPGTyper/Item.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RPGTyper/Items/Weapon.cs">
     <Files>
-      <File FileName="RPGTyper/Program.cs" Line="152" Column="39" />
-      <File FileName="RPGTyper/Player.cs" Line="64" Column="70" />
-      <File FileName="RPGTyper/Warrior.cs" Line="9" Column="49" />
-      <File FileName="RPGTyper/Mage.cs" Line="9" Column="49" />
-      <File FileName="RPGTyper/Archer.cs" Line="16" Column="1" />
-      <File FileName="RPGTyper/Item.cs" Line="26" Column="31" />
+      <File FileName="RPGTyper/Program.cs" Line="158" Column="62" />
+      <File FileName="RPGTyper/Player.cs" Line="24" Column="37" />
+      <File FileName="RPGTyper/Warrior.cs" Line="11" Column="88" />
+      <File FileName="RPGTyper/Mage.cs" Line="7" Column="6" />
+      <File FileName="RPGTyper/Archer.cs" Line="7" Column="6" />
+      <File FileName="RPGTyper/Item.cs" Line="16" Column="10" />
+      <File FileName="RPGTyper/Quest.cs" Line="27" Column="28" />
+      <File FileName="RPGTyper/Items/Armor.cs" Line="10" Column="6" />
+      <File FileName="RPGTyper/Items/Potion.cs" Line="2" Column="19" />
+      <File FileName="RPGTyper/Items/Weapon.cs" Line="4" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,8 +18,9 @@
           <Node name="RPGTyper" expanded="True">
             <Node name="RPGTyper" expanded="True">
               <Node name="Class" expanded="True" />
-              <Node name="Items" expanded="True" />
-              <Node name="Item.cs" selected="True" />
+              <Node name="Items" expanded="True">
+                <Node name="Weapon.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

@@ -1,15 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace RPGTyper
 {
     class Program
     {
         static Player currentPlayer;
+        //declare the type of campeign
+        static Quest quest = new Quest("Dragons Never Die", "Search for the lost dragon, Alvarava!");
+        static bool programRunning = true;
 
         static void Main(string[] args)
         {
             
-            bool programRunning = true;
+
+            
             bool playedBefore = false;
             bool playedBeforeLoop = true; 
 
@@ -95,14 +100,13 @@ namespace RPGTyper
                 string userInput = Console.ReadLine();
                 Validate.ValidateString(userInput, "Please don't leave your selection blank!");
 
-
                 switch(userInput)
                 {
                     case "1":
                     case "one":
                     case "fight":
                         {
-                            Fight();
+                            currentPlayer.XP += quest.BattleRoll(currentPlayer);
                         }
                         break;
                     case "2":
@@ -116,7 +120,7 @@ namespace RPGTyper
                     case "three":
                     case "inventory":
                         {
-                            currentPlayer.Inventory();
+                            
                         }
                         break;
                     case "4":
@@ -138,21 +142,38 @@ namespace RPGTyper
 
             }
         }
-        static void Questing()
+        static List<Item> InventoryManager(List<Item> inv)
         {
+            List<Item> output = new List<Item>();
+            bool programRunnin = true;
 
-        }
-
-        static void Fight()
-        {
-            while (Console.ReadKey().Key != ConsoleKey.X)
+            Console.WriteLine($@"{currentPlayer.Name}'s Inventory\n------------------------");
+            for (int i = 0; i < currentPlayer.Inventory.Count; i++)
             {
+                Console.WriteLine($"{i+1}) {currentPlayer.Inventory[i].Name}");
+            }
+            for (int i = 0; i < currentPlayer.)
+            Console.WriteLine("--------------------------------");
+            while (programRunnin)
+            {
+                Console.WriteLine("Manage your Inventory\n" +
+                    "1) Equip\n" +
+                    "2) Unequip\n" +
+                    $"3) User Potion {currentPlayer.PotionTotal()}\n" +
+                    "4) Shop");
+            }
 
-                Console.Clear();
-                currentPlayer.Attack();
-                currentPlayer.XP += 1;
-                Console.WriteLine($"Experience: {currentPlayer.XP}");
-
+            return output;
+        }
+        static void StateCheck()
+        {
+            if (currentPlayer.State == false)
+            {
+                programRunning = false;
+            } else if (currentPlayer.State != false)
+            {
+                programRunning = true;
+                Console.WriteLine("You've survived another day, and get ready for the next day. ");
             }
         }
     }

@@ -8,15 +8,49 @@ namespace RPGTyper
         private string _name;
         private int _gold;
         private int _xp;
+        private int _hp;
+        //did you win? 
+        private bool _complete = false;
+        //are you alive? 
+        private bool _state = true;
 
-        List<Item> _inventory = new List<Item>();
+        private List<Item> _inventory = new List<Item>();
+        private List<Item> _geared = new List<Item>();
 
+        public bool State
+        {
+            get { return _state; }
+            set { _state = value; }
+        }
+        public bool Completed
+        {
+            get { return _complete; }
+            set { _complete = value; }
+        }
+        public List<Item> Gear
+        {
+            get { return _geared; }
+            set { _geared = value; }
+        }
+        public List<Item> Inventory
+        {
+            get { return _inventory; }
+            set { _inventory = value; }
+        }
+        public int HP
+        {
+            get { return _hp; }
+            set { _hp = value; }
+        }
         public int XP
         {
             get { return _xp; }
             set { _xp = value; }
         }
-
+        public string Name
+        {
+            get { return _name; }
+        }
         public int Gold
         {
             get { return _gold; }
@@ -28,41 +62,19 @@ namespace RPGTyper
             _name = name;
             _gold = gold;
             _xp = 0;
+            _hp = 100;
         }
+         
+        public int PotionTotal()
+        {
+            int output = 0;
 
-        public void Gains()
-        {
-            _xp++;
-        }
-        public void UltraGains()
-        {
-            _xp += 10;
-        }
-        public virtual void Attack()
-        {
-            Random rnd = new Random();
-            int rndSelect = rnd.Next(100);
+            foreach(Potion pot in _inventory)
+            {
+                output++;
+            }
 
-            if (rndSelect < 25 && rndSelect > 0)
-            {
-                Console.WriteLine("I've attacked with my main attack, Arg!");
-            } else if (rndSelect > 25 && rndSelect < 50)
-            {
-                Console.WriteLine("I've attacked with a slightly stronger attack!");
-            } else if (rndSelect > 50 && rndSelect < 75)
-            {
-                Console.WriteLine("You've acticated my trap card! Peasent!");
-            } else if (rndSelect > 75 && rndSelect < 100)
-            {
-                Console.WriteLine(_name + " uses sword bash, their ultimate ability!");
-            }
-        }
-        public void Inventory()
-        {
-            for(int i = 0; i < _inventory.Count; i++)
-            {
-                Console.WriteLine((i + 1) + ") " + _inventory[i].Name);
-            }
+            return output;
         }
     }
 }
