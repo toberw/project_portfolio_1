@@ -12,7 +12,7 @@ namespace RPGTyper
             _dialog = dialog;
         }
 
-        public int BattleRoll(Player player)
+        public void BattleRoll(Player player)
         {
             Random rnd = new Random();
             int roll = rnd.Next(100);
@@ -21,28 +21,39 @@ namespace RPGTyper
             if (roll <= 1)
             {
                 //THIS WIL HAVE DIALOG THAT WILL GET PULLED FROM FILEIO
-                Console.WriteLine("You are unfortunate enough to end up fighting Alvarava.\n" +
-                    "He screams a teriffying screetch, it's then and only then you realize.\n" +
-                    "You're dead.");
+                Console.WriteLine("you are unfortunate enough to end up fighting alvarava.\n" +
+                    "he screams a teriffying screetch, it's then and only then you realize.\n" +
+                    "this might be the end..\n");
                 if(player.HP > 80)
                 {
-                    Console.WriteLine("You fought hard and you were able to defeat the dragon. Ending your quest.");
-                    player.HP = -30;
+                    Console.WriteLine("you fought hard and you were able to defeat the dragon. Ending your quest.");
+                    player.HP -= 30;
                     player.Completed = true;
-                    player.XP =+ 500;
-                    player.State = true;
+                    player.Gold += 500;
+                    player.State = false;
 
                 } else if (player.HP < 80)
                 {
-                    Console.WriteLine("The dragon uses it's fire breath, you don't have what it takes to withstand the dragon breath.\n" +
-                        "Your body starts burning and everything goes black.");
+                    Console.WriteLine("the dragon uses it's fire breath, you don't have what it takes to withstand the dragon breath.\n" +
+                        "your body starts burning and everything goes black.");
                 }
             } else
             {
-
+                if (player.HP > 1)
+                {
+                    Console.WriteLine("you look at a baby dragon, it's still pretty mean looking.\n" +
+                    "you manage to fight it");
+                    player.Gold += 2;
+                    player.HP -= 2;
+                    player.XP += 4;
+                } else if (player.HP < 1)
+                {
+                    Console.WriteLine("you look at a baby dragon, it's still pretty mean looking.\n" +
+                    "you use your weapon but have no fight left in you.\n" +
+                    "you Died.");
+                }
+                
             }
-
-            return reward;
         }
     }
 }

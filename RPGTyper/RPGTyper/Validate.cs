@@ -30,7 +30,7 @@ namespace RPGTyper
 
         public static string ValidateString(string input, string input2)
         {
-            string validatedString = null;
+            string validatedString = input;
             bool isValidationRunning = true;
             while (isValidationRunning)
             {

@@ -23,9 +23,5 @@ namespace RPGTyper
             _description = description;
         }
 
-        public void Describe()
-        {
-            Console.WriteLine(_description);
-        }
     }
 }
